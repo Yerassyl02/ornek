@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<link rel="stylesheet" type="text/css" href="css/prod-details.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<link rel="stylesheet" type="text/css" href="css/checkout.css">
+	<link rel="stylesheet" type="text/css" href="css/service.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/exhibition.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+	<title>Ornek</title>
+</head>
+<body>
+	<div class="search__form">
+		<div class="close-form"><a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+		<div class="form__body">
+			<form action="#">
+				<i class="fa fa-search-plus" aria-hidden="true"></i>
+				<input type="search">
+			</form>
+		</div>
+	</div>
+	<section class="main">
+		<div class="main__body">
+			<div class="left-menu">
+				<div class="left-menu__logo">
+					<a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+				</div>
+				<div class="left-menu__menu">
+					<a href="index.html" class=" hideMenu">Басты бет</a>
+					<a href="products.html" class="activeMenu">Каталог</a>
+					<a href="about.html" class="hideMenu">Біз туралы</a>
+					<a href="cart.html" class="hideMenu">Себет</a>
+				</div>
+				<div class="left-menu__buttons">
+					<div class="left-menu__buttons1">
+						<a href="service.html" class="hideMenu">Қызметтер</a>
+						<a href="exhibition.html" class="hideMenu">Андронов <br> мәдениетінің <br> көрмесі</a>
+					</div>
+					<div class="left-menu__buttons2">
+						<a href="cart.html" class="hideMenu"><img src="img/core-img/cart.png" alt=""><span class="cart-items_length">0</span></a>
+						<a href="#" class="searchFormBtn"><img src="img/core-img/search.png" alt=""><span>ІЗДЕУ</span></a>
+					</div>
+					<div class="left-menu__buttons3">
+						<a href="#"><i class="fa fa-youtube hideMenu" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram hideMenu" aria-hidden="true"></i></i></a>
+						<a href="#"><i class="fa fa-whatsapp hideMenu" aria-hidden="true"></i></i></a>
+					</div>
+					<!-- <div class="left-menu__buttons4">
+						<p>need to add translator</p>
+					</div> -->
+				</div>
+			</div>
+			<div class="mobile__header">
+				<div class="mobile__header-logo"><a href="index.html"><img src="img/core-img/logo.png" height="50px" alt=""></a></div>
+				<div class="mobile__header-burger"><span></span></div>
+			</div>
+			<div class="right-main">
+				<div class="container">
+					<div class="details__body">
+						<div class="details__photo">
+							<img src="img/product-img/pro-big-1.jpg" alt="">
+						</div>
+						<div class="details__info">
+							<hr>
+							<h3>$180</h3>
+							<h2>White Modern Chair</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?</p>
+							<div class="quantity">
+								<label for="qty">Qty</label>
+								<span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+								<input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="1">
+								<span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
+							</div>
+							<a href="cart.html">Add to cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="topBtn">
+		<p><i class="fa fa-arrow-up" aria-hidden="true"></i></p>
+	</div>
+	<footer class="footer" style="margin-top: 0;">
+		<div class="container">
+			<div class="footer__body">
+				<div class="footer__logo">
+					<a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+				</div>
+				<div class="footer__text">
+					<p>Біздің мақсатымыз - қазақтың бай ұлттық өнерін, мәдениетін түпнұсқа күйінде халыққа жеткізу. Осы бағытта аянбай еңбектеніп келеміз. Қосымша, біздің орталығымыз күнделікті өмірде кеңінен қолдануға жарайтын әшекей бұйымдар, киім үлгілері мен басқа да ғажап дүниелерді дайындап жатыр. Бізбен бірге болғандарыңызға рахмет!</p>
+				</div>
+				<div class="footer__map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94369.08707605136!2d69.51976551172439!3d42.34179908729381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a8f256546681bb%3A0xa167b582e75b369b!2z0KjRi9C80LrQtdC90YI!5e0!3m2!1sru!2skz!4v1616134171945!5m2!1sru!2skz" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+
